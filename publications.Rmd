@@ -1,0 +1,10 @@
+---
+title: "Publications"
+output:
+  html_document:
+    css: style.css
+---
+<br/>
+Gatto L, Killian T (2019). depmap: Cancer Dependency Map Data Package. R package version 0.99.6. 
+<br/>
+
