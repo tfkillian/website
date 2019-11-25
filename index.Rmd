@@ -2,12 +2,14 @@
 title: "About me"
 #inspiration: http://iosband.github.io/blog.html
 #https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html#html-generation
+#link to file
+# https://stackoverflow.com/questions/32563078/how-link-to-any-local-file-with-markdown-syntax
+# rmarkdown::render_site()
 #<p style="font-family: times, serif; font-size:11pt; font-style:italic">
 output:
   html_document:
     css: style.css
 ---
-<br/>
 <br/>
 I am a bioinformatician and data scientist at the [De Duve Institute](http://www.deduveinstitute.be/),
 working in the [Gatto Lab](http://www.deduveinstitute.be/computational-biology).
