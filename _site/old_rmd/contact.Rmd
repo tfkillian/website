@@ -1,0 +1,17 @@
+---
+title: "Contact"
+output:
+  html_document:
+    css: style.css
+---
+<br/>
+I am always interested in collaborating on data science, bioinformatic and machine learning projects, so please get in touch if you’d like to make a plan!
+<br/>
+<br/>
+[linkedin profile](https://www.linkedin.com/in/theo-killian/)
+<br/>
+<br/>
+[github profile](https://github.com/tfkillian)
+<br/>
+<br/>
+<br/>

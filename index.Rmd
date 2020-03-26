@@ -1,35 +1,40 @@
 ---
 title: "About me"
 #inspiration: http://iosband.github.io/blog.html
-#https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html#html-generation
+# https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html#html-generation
 #link to file
 # https://stackoverflow.com/questions/32563078/how-link-to-any-local-file-with-markdown-syntax
-# rmarkdown::render_site()
+# rmarkdown::render_site("/home/marshalbanana/tmp/website")
 #<p style="font-family: times, serif; font-size:11pt; font-style:italic">
 output:
   html_document:
     css: style.css
+    
+### this is a good example blog https://suzan.rbind.io/about.html
+# working at the [De Duve Institute](http://www.deduveinstitute.be/),
+# in the [Gatto Lab](http://www.deduveinstitute.be/computational-biology)
+# I have built a career about the two things that think that I find most interesting: exploring the richness of the chemistry of life and the science of information. I firmly believe in the power of these areas of research to deliver unique solutions, improve human health and to provide insight in navigating the complex problems facing our species in the 21st century.
+    # - text: "Publications"
+    #   href: publications.html
+    # - text: "Blog"
+    #   href: blog.html
+    # - text: "Resume"
+    #   href: resume.html
+    # - text: "Contact"
+    #   href: contact.html
 ---
 <br/>
-I am a bioinformatician and data scientist at the [De Duve Institute](http://www.deduveinstitute.be/),
-working in the [Gatto Lab](http://www.deduveinstitute.be/computational-biology).
-I develop open source research software and analytical pipelines, maintain
-Bioconductor packages and perform RNAseq and proteomic data analyses in 
-collaboration with other research groups.
+I'm Theo, a bioinformatician and data scientist. I develop open source research software and analytical pipelines, maintain Bioconductor packages and perform omics data analyses in collaboration with various research groups.
 <br/>
 <br/>
-My research interests aside from bioinformatics and data science include
-computational biology, proteomics, protein structure prediction, structural
-biology, reproducible research, applied machine learning, bionanotechnology and 
-synthetic biology.
+My research interests include computational biology, reproducible research, applied machine learning, the molecular biology of cancer and longevity, bionanotechnology and synthetic biology.
 <br/>
 <br/>
-For me, the two most interesting things in the world are exploring the richness
-of the chemistry of life and the science of understanding our world as
-information. I have built a career out of combining these twin interests. I
-firmly believe in the power of these areas of research to deliver unique
-solutions, improve human lives and to provide insight to navigate many of
-the complex problems facing our species in the 21st century.
+I am committed to continuously learning new skills, especially in the area of data analysis. I enjoy helping others discover the wonderous worlds of R and Python.
+<br/>
+<br/>
+My hobbies include taking part in hackathons, climbing volcanoes, bike touring, mushroom hunting and raising carnivorous plants.
+<br/>
 <br/>
 <br/>
 ![](./me_image.jpeg)

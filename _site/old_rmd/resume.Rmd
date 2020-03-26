@@ -1,0 +1,86 @@
+---
+title: "Resume"
+output:
+  html_document:
+    css: style.css
+---
+**Objective**
+<br/>
+Focused, scientifically-minded professional seeking to maximally utilize
+experience in data analysis, bioinformatic programming, statistical methods,
+web applications and analytical instrumentation.
+<br/>
+<br/>
+**Qualifications Summary**
+<br/>
+5+ years of proficiency in Python, R, bash and SQL in a professional setting
+<br/>
+5+ years of experience performing statistical data analysis and data visualization techniques
+<br/>
+10+ years of experience working with UNIX-like operating systems (Ubuntu/Debian)
+<br/>
+7+ years of professional experience in analytical and instrumental laboratory settings
+<br/>
+<br/>
+**Education**
+<br/>
+*Masters of Science, Bioinformatics* - Jan 2019
+<br/>
+Katholieke Universiteit Leuven, Leuven, Belgium
+<br/>
+Master's Research: *"Computational design of symmetric proteins for bionanotechnology"*
+<br/>
+Course Experience: Database Management, Modern Computing in Bioinformatics,
+Linear Algebra, Basic Programming, Object Oriented Programming, Dynamical
+Systems, Biomolecular Interactions, Biomolecular Modeling, Genomics, Proteomics
+and RNA Sequence Analysis, Model Organisms, Evolutionary Genetics, Comparative
+and Quantitative Genetics, Bayesian Statistics, Machine Learning, Multivariate
+Statistics, Support Vector Machines, Artificial Neural Networks and Deep Learning
+<br/>
+<br/>
+*Bachelor of Science, Biochemistry* - Jun 2010
+<br/>
+Southern Oregon University, Ashland, Oregon, USA
+<br/>
+Undergraduate Research: *"Modeling Protein-Heavy Metal Complexes via UV-Vis and FT-IR"*
+<br/>
+Course Experience: General Chemistry, General Biology, General Physics, Organic
+Chemistry, Organic Spectroscopy, Calculus I-III, Differential Equations,
+Analytical Chemistry, Instrumental Analysis, Computer Applications in Chemistry,
+Physical Chemistry, Quantum Chemistry, General and Advanced Biochemistry
+Biochemistry, Genetics and Molecular Biology
+<br/>
+<br/>
+**Career Experience**
+<br/>
+Bioinformatician, De Duve Institute, UC Louvain, Brussels, Belgium: Feb 2019 – current
+<br/>
+Performed bioinformatic data analysis of biological data. Built web apps to
+visualize results of data analyses. Developed and maintained open source data
+analysis software, including Bioconductor packages 
+<br/>
+<br/>
+Laboratory Analyst Fremont Analytical Inc., Seattle, WA, USA: Apr 2014 – Sep 2016
+<br/>
+Performed solid and liquid phase extraction of organic analytes from various
+media and analysis with GC-MS and solid phase extraction using EPA methods
+<br/>
+<br/>
+Quality Control Chemist, PureBulk, Inc., Roseburg, OR, USA: Dec 2011 – Mar 2014
+<br/>
+Performed QA/QC testing, approval of analytical samples. Ensured product
+safety and complied with specifications via FT-IR, GC-MS, HPLC. Technical
+writer, authored SOPs for Safety, Quality Control and Production
+<br/>
+<br/>
+Lab Technician, Integrated Medical Research, Ashland, OR, USA: Sep 2010 – Apr 2011
+<br/>
+Collected and logged research trial data for clinical pharmaceutical studies.
+Recruited and enrolled individuals in ongoing pharmaceutical studies. Dispensed
+study medication, processed biohazardous medical research samples
+<br/>
+<br/>
+Academic Tutor, Southern Oregon University, Ashland, OR, USA: Sep 2007 – Jul 2010
+<br/>
+Tutored undergradute students in organic and general chemistry, biology, physics,
+astronomy, and philosophy

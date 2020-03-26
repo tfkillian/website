@@ -1,0 +1,10 @@
+---
+title: "Blog, thoughts and opinion"
+output:
+  html_document:
+    css: style.css
+---
+<br/>
+Nov 1, 2019: Why R is not a dead language
+<br/>
+Read more [here](./tutorials.html) # It works!

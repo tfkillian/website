@@ -1,0 +1,21 @@
+---
+title: "Tutorial"
+output:
+  html_document:
+    css: style.css
+# each of these will basically be a Rmd file like so:
+# Read more [here](./tutorials.html) 
+---
+<br/>
+How to code a Shiny App
+<br/>
+<br/>
+How to copy files remotely
+<br/>
+<br/>
+How to build a Snakemake pipeline
+<br/>
+<br/>
+Performing a DESeq2 analysis
+<br/>
+<br/>
