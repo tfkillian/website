@@ -1,0 +1,12 @@
+---
+title: "Contact"
+output:
+  html_document:
+    css: style.css
+# ![](./me_image2.jpeg)
+---
+<br/>
+I'm always interested in developing new data science, bioinformatic and machine learning projects. Please get in touch if you’d like to collaborate.
+<br/>
+<br/>
+Feel free to connect with me via [linkedin](https://www.linkedin.com/in/theo-killian/) or [github](https://github.com/tfkillian).

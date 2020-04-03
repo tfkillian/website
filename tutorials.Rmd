@@ -1,5 +1,5 @@
 ---
-title: "Tutorial"
+title: "Tutorials"
 output:
   html_document:
     css: style.css
@@ -7,7 +7,11 @@ output:
 # Read more [here](./tutorials.html) 
 ---
 <br/>
-How to code a Shiny App
+I enjoy sharing my knowledge and expertise with others.
+
+<br/>
+<br/>
+How to code a [Shiny App](./shiny.html)
 <br/>
 <br/>
 How to copy files remotely
@@ -19,3 +23,4 @@ How to build a Snakemake pipeline
 Performing a DESeq2 analysis
 <br/>
 <br/>
+How to train a neural network in R

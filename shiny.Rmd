@@ -1,0 +1,35 @@
+---
+title: "How to code a Shiny App"
+output:
+  html_document:
+    css: style.css
+# each of these will basically be a Rmd file like so:
+# Read more [here](./tutorials.html) 
+---
+
+Lorem ipso blah blah blah 
+
+## Where to begin?
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r sessionInfo}
+sessionInfo()
+```
+
+*References:*
+
