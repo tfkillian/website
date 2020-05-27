@@ -24,13 +24,13 @@ output:
     #   href: contact.html
 ---
 <br/>
-I'm Theo, a bioinformatician and data scientist. I develop open source research software and analytical pipelines, maintain Bioconductor packages and perform omics data analyses in collaboration with various research groups.
+I'm Theo, a bioinformatician and data scientist. I develop open source research software and analytical data pipelines, maintain Bioconductor packages and perform omics data analyses in collaboration with various research groups.
 <br/>
 <br/>
-My research interests include computational biology, reproducible research, applied machine learning, the molecular biology of cancer and longevity, bionanotechnology and synthetic biology.
+My research interests include multi-omics, computational biology, reproducible research, applied machine learning, the molecular biology of cancer and longevity, bionanotechnology and synthetic biology.
 <br/>
 <br/>
-I am committed to continuously learning new skills, especially in the area of data analysis. I enjoy helping others discover the wonderous worlds of R and Python.
+I am committed to continuously learning new skills, especially in the area of data analysis. I enjoy helping others discover the wonderous worlds of R, Python and Bash.
 <br/>
 <br/>
 My hobbies include taking part in hackathons, climbing volcanoes, bike touring, mushroom hunting and raising carnivorous plants.

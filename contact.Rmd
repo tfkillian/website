@@ -6,7 +6,14 @@ output:
 # ![](./me_image2.jpeg)
 ---
 <br/>
-I'm always interested in developing new data science, bioinformatic and machine learning projects. Please get in touch if you’d like to collaborate.
+I'm always interested in developing new data science, bioinformatic and machine learning projects. <br/> Please get in touch if you’d like to collaborate.
 <br/>
 <br/>
-Feel free to connect with me via [linkedin](https://www.linkedin.com/in/theo-killian/) or [github](https://github.com/tfkillian).
+@ [linkedin](https://www.linkedin.com/in/theo-killian/)
+<br/>
+@ [github](https://github.com/tfkillian)
+<br/>
+<br/>
+Or by sending an e-mail to `theodore.killian@uclouvain.be`
+
+
