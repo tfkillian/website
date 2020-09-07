@@ -26,7 +26,7 @@ expression analysis. This pipeline utilizes `Conda` to maintain a software
 environment that ensures data reproducibility.
 <br/>
 <br/>
-[**Shiny App DE Data Viewer**](https://github.com/tfkillian/RNAseq_snakemake)
+[**Shiny App DE Data Viewer**](https://github.com/tfkillian/shiny)
 <br/>
 This interactive web app allows users to explore the results of differential
 expression analysis through dynamic visualizations and customizable html tables.

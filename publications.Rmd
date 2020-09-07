@@ -1,0 +1,16 @@
+---
+title: "Publications"
+output:
+  html_document:
+    css: style.css
+---
+<br/>
+[Halbout, Mattias, et al. "Modulating protein production from nonsense-mediated decay targets by SUZ-domain containing proteins."]()
+<br/>
+<br/>
+[Pollet, Hélène, et al. "Aberrant Membrane Composition and Biophysical Properties Impair Erythrocyte Morphology and Functionality in Elliptocytosis." Biomolecules 10.8 (2020): 1120.](https://www.mdpi.com/2218-273X/10/8/1120)
+<br/>
+<br/>
+[Gatto L, Killian T (2019). depmap: Cancer Dependency Map Data Package. R package version 1.13.](https://bioconductor.org/packages/devel/data/experiment/html/depmap.html) 
+<br/>
+
