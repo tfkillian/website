@@ -9,22 +9,10 @@ title: "About me"
 output:
   html_document:
     css: style.css
-    
 ### this is a good example blog https://suzan.rbind.io/about.html
-# working at the [De Duve Institute](http://www.deduveinstitute.be/),
-# in the [Gatto Lab](http://www.deduveinstitute.be/computational-biology)
-# I have built a career about the two things that think that I find most interesting: exploring the richness of the chemistry of life and the science of information. I firmly believe in the power of these areas of research to deliver unique solutions, improve human health and to provide insight in navigating the complex problems facing our species in the 21st century.
-    # - text: "Publications"
-    #   href: publications.html
-    # - text: "Blog"
-    #   href: blog.html
-    # - text: "Resume"
-    #   href: resume.html
-    # - text: "Contact"
-    #   href: contact.html
 ---
 <br/>
-I'm Theo, a bioinformatician and data scientist. I develop open source research software and analytical data pipelines, maintain Bioconductor packages and perform omics data analyses in collaboration with many diverse research collaborators. My research interests include integrating multiomics datasets, data mining, computational biology, reproducible research, applied machine learning, the molecular biology of cancer and longevity, bionanotechnology and synthetic biology. I am committed to continuously learning new skills. I enjoy helping others discover the utility of R, Python and Bash. My hobbies include bike touring, climbing volcanoes, mushroom hunting and raising carnivorous plants.
+I'm a bioinformatician and data scientist who develops open source research software, builds analytical data pipelines and performs omics data analyses in collaboration with various research groups. My research interests include integrating multiomics datasets, data mining, computational biology, reproducible research, applied machine learning, the molecular biology of cancer and longevity, bionanotechnology and synthetic biology. I enjoy helping others discover the utility of R, Python and Bash in exploring the world of data. My hobbies include bike touring, climbing volcanoes, mushroom hunting and raising carnivorous plants.
 <br/>
 <br/>
 <br/>
