@@ -5,19 +5,25 @@ output:
     css: style.css
 ---
 <br/>
-This is a non-exhaustive list of my personal and professional projects as of `r Sys.Date()`:
+This is selection of my personal and professional projects as of `r Sys.Date()`:
 <br/>
 <br/>
-[**depmap**](http://bioconductor.org/packages/release/data/experiment/html/depmap.html)
+1. [**10X Seurat Single Cell Visualization Pipeline**](https://github.com/tfkillian/single_cell_GoT)
 <br/>
-The `depmap` Bioconductor package facilitates access in the R environment to the
-data from the [Depmap project](https://depmap.org/portal/), formating this data
+This pipeline performs analysis of 10X single cell RNAseq data using the `Seurat`
+package, producing diagnostic visualizations and statistics.
+<br/>
+<br/>
+2. [**depmap**](http://bioconductor.org/packages/release/data/experiment/html/depmap.html)
+<br/>
+The `depmap` Bioconductor package stores data from data from the
+[Depmap project](https://depmap.org/portal/), formating this data
 for use of popular R data analysis and visualizing tools such as `dplyr` and
 `ggplot2`. This package utilizes `ExperimentHub`, accessing versions of the
 Depmap data from the Cloud.
 <br/>
 <br/>
-[**RNAseq Snakemake Pipeline**](https://github.com/tfkillian/RNAseq_snakemake)
+3. [**RNAseq NGS Snakemake Pipeline**](https://github.com/tfkillian/RNAseq_snakemake)
 <br/>
 This Snakemake pipeline automates a RNAseq workflow utilizing bash command line
 tools (`fastqc`, `trimmomatic`, `histat2` and `htseq-count`), starting with
@@ -26,30 +32,23 @@ expression analysis. This pipeline utilizes `Conda` to maintain a software
 environment that ensures data reproducibility.
 <br/>
 <br/>
-[**Shiny App DE Data Viewer**](https://github.com/tfkillian/shiny)
+4. [**Transcripomic DE Result Shiny App **](https://github.com/tfkillian/shiny)
 <br/>
 This interactive web app allows users to explore the results of differential
 expression analysis through dynamic visualizations and customizable html tables.
 <br/>
 <br/>
-[**RNAseq analysis of miRNA targeting sarcoma oncogenes in humans and mice**](https://github.com/tfkillian/soft_tissue_sarcoma)
+5. [**RNAseq analysis of miRNA targeting sarcoma oncogenes in humans and mice**](https://github.com/tfkillian/soft_tissue_sarcoma)
 <br/>
 `DESeq2` RNAseq differential expression analysis of human and mouse samples with
 the objective of comparing the expression profiles of sarcoma oncogenes between
-the two species in order to develop a targeted miRNA sarcoma therapy. This
-project was performed in collaboration with [Dr. Enrico Pozzo](https://www.kuleuven.be/wieiswie/en/person/00091785)
+the two species in order to develop a targeted miRNA sarcoma therapy.
 <br/>
 <br/>
-[**GSEA network analysis pipeline in R**](https://github.com/tfkillian/GSEA_network_analysis)
-<br/>
-This pipeline performs GSEA network analysis on a set of enriched genes taken
-from a differential expression analysis, producing network visualizations and
-statistics.
-<br/>
-<br/>
-[**10X Seurat Single Cell Visualization Pipeline**](https://github.com/tfkillian/single_cell_GoT)
-<br/>
-This pipeline performs analysis of 10X single cell RNAseq data using the `Seurat`
-package, producing diagnostic visualizations and statistics.
-<br/>
-<br/>
+<!-- [**GSEA network analysis pipeline in R**](https://github.com/tfkillian/GSEA_network_analysis) -->
+<!-- <br/> -->
+<!-- This pipeline performs GSEA network analysis on a set of enriched genes taken -->
+<!-- from a differential expression analysis, producing network visualizations and -->
+<!-- statistics. -->
+<!-- <br/> -->
+<!-- <br/> -->
