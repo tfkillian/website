@@ -6,23 +6,26 @@ output:
     # Weinstein, J. (2009). "The market in Plato’s Republic." Classical Philology, 104(4), 439-458. 
 ---
 <br/>
-This is a selection of papers that I have co-authored, as of `r Sys.Date()`:
+This is a selection of papers that I have authored or co-authored, as of `r Sys.Date()`:
 <br/>
 <br/>
-1. [Broadfield, et al. (2021) "Non-transformed cells respond to fat by inducing glucose metabolism"]()
+1. [Killian T, Gatto L (2021) "Exploiting the DepMap cancer dependency data using the depmap R package"](https://f1000research.com/articles/10-416/v1)
 <br/>
 <br/>
-2. [Mylemans B, et al. (2021) "Crystal structures of Scone, pseudosymmetric folding of a symmetric designer protein" ](pdfs/Scone_paper.pdf)
+2. [Broadfield, et al. (2021) "Non-transformed cells respond to fat by inducing glucose metabolism"]()
 <br/>
 <br/>
-3. [Lin Y, et al. (2021) "Whole-life bone percentage trajectory and longevity in rats: Role of insulin"](pdfs/longevity_paper.pdf)
+3. [Mylemans B, et al. (2021) "Crystal structures of Scone, pseudosymmetric folding of a symmetric designer protein" ](pdfs/Scone_paper.pdf)
 <br/>
 <br/>
-4. [Halbout M, et al. (2021) "Modulating protein production from nonsense-mediated decay targets by SUZ-domain containing proteins"](pdfs/SUZ_domain_paper.pdf)
+4. [Lin Y, et al. (2021) "Whole-life bone percentage trajectory and longevity in rats: Role of insulin"](pdfs/longevity_paper.pdf)
 <br/>
 <br/>
-5. [Pollet H, et al. (2020) "Aberrant Membrane Composition and Biophysical Properties Impair Erythrocyte Morphology and Functionality in Elliptocytosis." Biomolecules 10.8 (2020): 1120.](pdfs/Elliptocytosis_paper.pdf)
+5. [Halbout M, et al. (2021) "Modulating protein production from nonsense-mediated decay targets by SUZ-domain containing proteins"](pdfs/SUZ_domain_paper.pdf)
 <br/>
 <br/>
-6. [Gatto L, Killian T (2019). depmap: Cancer Dependency Map Data Package. R package version 1.13.](https://bioconductor.org/packages/devel/data/experiment/html/depmap.html) 
+6. [Pollet H, et al. (2020) "Aberrant Membrane Composition and Biophysical Properties Impair Erythrocyte Morphology and Functionality in Elliptocytosis." Biomolecules 10.8 (2020): 1120.](pdfs/Elliptocytosis_paper.pdf)
+<br/>
+<br/>
+7. [Gatto L, Killian T (2019). depmap: Cancer Dependency Map Data Package. R package version 1.13.](https://bioconductor.org/packages/devel/data/experiment/html/depmap.html) 
 <br/>

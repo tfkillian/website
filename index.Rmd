@@ -10,17 +10,20 @@ output:
   html_document:
     css: style.css
 ### this is a good example blog https://suzan.rbind.io/about.html
+
+## insert a cool gif somehow
+
 ---
 <br/>
-I am very passionate about bioinformatics and data science. I perform
-omics analyses on diverse types of biological data including: single cell and
-bulk RNAseq, proteomic, metabolomic, ATACseq, SNP calling and flow cytometry. I
-also develop open source research software, especially analytical pipelines and
-web applications. My research interests are focused on integration of multiomics
-data, applying machine learning to the molecular biology of cancer and
-longevity, reproducible research, bionanotechnology and synthetic biology. My
-hobbies include bike touring, climbing volcanoes, mushroom hunting and raising
-carnivorous plants.
+I am very passionate about bioinformatics, data science and biotechnology. I
+perform omics analyses on diverse array of biological data including: single
+cell and bulk RNAseq, proteomic, metabolomic, ATACseq, SNP calling and flow
+cytometry. I also develop open source research software, especially analytical
+pipelines and web applications. My research interests are focused on integration
+of multiomics data, applying machine learning to the molecular biology of cancer
+and longevity, reproducible research, bionanotechnology and synthetic biology.
+My hobbies include bike touring, climbing volcanoes, mushroom hunting and
+raising carnivorous plants.
 <br/>
 <br/>
 <br/>
