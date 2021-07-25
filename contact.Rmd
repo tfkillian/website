@@ -7,9 +7,10 @@ output:
 # Or by sending an e-mail to `theo (dot) killian (at) kuleuven (dot) vib (dot) be`
 ---
 <br/>
-I'm always interested in working on new data science, bioinformatic and machine learning projects!
-<br/>
-<br/> Please get in touch if you’d like to collaborate:
+I am always interested in discussing potential collaboration on new projects
+that combine bioinformatics and the power of machine learning.
+<!-- <br/> -->
+<!-- <br/> Please get in touch if you would like to collaborate: -->
 <br/>
 <br/>
 @ [twitter](https://github.com/tfkillian)
@@ -18,7 +19,11 @@ I'm always interested in working on new data science, bioinformatic and machine 
 <br/>
 @ [github](https://twitter.com/tfkillian)
 <br/>
-<br/>
+<!-- <br/> -->
 @ e-mail `theo (dot) killian (at) kuleuven (dot) vib (dot) be`
+<br/>
+<br/>
+![](./me_image.jpeg)
+
 
 

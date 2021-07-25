@@ -13,6 +13,7 @@
 
 <title>How to code a Shiny App</title>
 
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -251,7 +252,7 @@ $(document).ready(function () {
   <a href="publications.html">Publications</a>
 </li>
 <li>
-  <a href="Killian_CV_Feb_2021.pdf">CV</a>
+  <a href="./pdfs/Killian_CV_June15_2021.pdf">CV</a>
 </li>
 <li>
   <a href="contact.html">Contact</a>
@@ -277,7 +278,7 @@ $(document).ready(function () {
 <div id="where-to-begin" class="section level2">
 <h2>Where to begin?</h2>
 <pre class="r"><code>sessionInfo()</code></pre>
-<pre><code>## R version 4.0.3 (2020-10-10)
+<pre><code>## R version 4.1.0 (2021-05-18)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
 ## Running under: Ubuntu 18.04.5 LTS
 ## 
@@ -286,83 +287,71 @@ $(document).ready(function () {
 ## LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
 ## 
 ## locale:
-##  [1] LC_CTYPE=en_US.UTF-8      
-##  [2] LC_NUMERIC=C              
-##  [3] LC_TIME=en_US.UTF-8       
-##  [4] LC_COLLATE=en_US.UTF-8    
-##  [5] LC_MONETARY=en_US.UTF-8   
-##  [6] LC_MESSAGES=en_US.UTF-8   
-##  [7] LC_PAPER=en_US.UTF-8      
-##  [8] LC_NAME=C                 
-##  [9] LC_ADDRESS=C              
-## [10] LC_TELEPHONE=C            
-## [11] LC_MEASUREMENT=en_US.UTF-8
-## [12] LC_IDENTIFICATION=C       
+##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
 ## 
 ## attached base packages:
-## [1] stats     graphics  grDevices utils     datasets 
-## [6] methods   base     
+## [1] stats     graphics  grDevices utils     datasets  methods  
+## [7] base     
 ## 
 ## other attached packages:
-##  [1] gtrendsR_1.4.8            
-##  [2] shinydashboard_0.7.1      
-##  [3] tidyquant_1.0.3           
-##  [4] quantmod_0.4.18           
-##  [5] TTR_0.24.2                
-##  [6] PerformanceAnalytics_2.0.4
-##  [7] xts_0.12.1                
-##  [8] zoo_1.8-9                 
-##  [9] lubridate_1.7.10          
-## [10] janitor_2.1.0             
-## [11] forcats_0.5.1             
-## [12] stringr_1.4.0             
-## [13] dplyr_1.0.6               
-## [14] purrr_0.3.4               
-## [15] readr_1.4.0               
-## [16] tidyr_1.1.3               
-## [17] tibble_3.1.2              
-## [18] ggplot2_3.3.3             
-## [19] tidyverse_1.3.1           
-## [20] shiny_1.6.0               
+## [1] ggrepel_0.9.1 ggplot2_3.3.5 tibble_3.1.3  dplyr_1.0.7  
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] httr_1.4.2          sass_0.4.0         
-##  [3] splines_4.0.3       jsonlite_1.7.2     
-##  [5] modelr_0.1.8        bslib_0.2.5.1      
-##  [7] assertthat_0.2.1    BiocManager_1.30.15
-##  [9] cellranger_1.1.0    yaml_2.2.1         
-## [11] pillar_1.6.1        backports_1.2.1    
-## [13] lattice_0.20-44     glue_1.4.2         
-## [15] quadprog_1.5-8      digest_0.6.27      
-## [17] promises_1.2.0.1    rvest_1.0.0        
-## [19] snakecase_0.11.0    colorspace_2.0-1   
-## [21] Matrix_1.3-3        htmltools_0.5.1.1  
-## [23] httpuv_1.6.1        pkgconfig_2.0.3    
-## [25] broom_0.7.6         haven_2.4.1        
-## [27] xtable_1.8-4        scales_1.1.1       
-## [29] later_1.2.0         mgcv_1.8-35        
-## [31] generics_0.1.0      farver_2.1.0       
-## [33] ellipsis_0.3.2      cachem_1.0.5       
-## [35] withr_2.4.2         cli_2.5.0          
-## [37] magrittr_2.0.1      crayon_1.4.1       
-## [39] readxl_1.3.1        mime_0.10          
-## [41] evaluate_0.14       fs_1.5.0           
-## [43] fansi_0.4.2         nlme_3.1-152       
-## [45] xml2_1.3.2          Cairo_1.5-12.2     
-## [47] rsconnect_0.8.17    tools_4.0.3        
-## [49] hms_1.1.0           lifecycle_1.0.0    
-## [51] munsell_0.5.0       reprex_2.0.0       
-## [53] compiler_4.0.3      jquerylib_0.1.4    
-## [55] rlang_0.4.11        grid_4.0.3         
-## [57] rstudioapi_0.13     rmarkdown_2.8      
-## [59] labeling_0.4.2      gtable_0.3.0       
-## [61] DBI_1.1.1           curl_4.3.1         
-## [63] R6_2.5.0            knitr_1.33         
-## [65] fastmap_1.1.0       utf8_1.2.1         
-## [67] Quandl_2.10.0       stringi_1.6.2      
-## [69] Rcpp_1.0.6          vctrs_0.3.8        
-## [71] xfun_0.23           dbplyr_2.1.1       
-## [73] tidyselect_1.1.1</code></pre>
+##  [1] bitops_1.0-7                matrixStats_0.59.0         
+##  [3] bit64_4.0.5                 filelock_1.0.2             
+##  [5] RColorBrewer_1.1-2          progress_1.2.2             
+##  [7] httr_1.4.2                  GenomicDataCommons_1.17.0  
+##  [9] GenomeInfoDb_1.29.3         bslib_0.2.5.1              
+## [11] tools_4.1.0                 utf8_1.2.2                 
+## [13] R6_2.5.0                    DBI_1.1.1                  
+## [15] BiocGenerics_0.39.1         colorspace_2.0-2           
+## [17] withr_2.4.2                 tidyselect_1.1.1           
+## [19] prettyunits_1.1.1           TCGAutils_1.13.0           
+## [21] bit_4.0.4                   curl_4.3.2                 
+## [23] compiler_4.1.0              rvest_1.0.0                
+## [25] Biobase_2.53.0              xml2_1.3.2                 
+## [27] DelayedArray_0.19.1         sass_0.4.0                 
+## [29] rtracklayer_1.53.0          scales_1.1.1               
+## [31] readr_2.0.0                 rappdirs_0.3.3             
+## [33] stringr_1.4.0               digest_0.6.27              
+## [35] Rsamtools_2.9.1             rmarkdown_2.9              
+## [37] XVector_0.33.0              pkgconfig_2.0.3            
+## [39] htmltools_0.5.1.1           MatrixGenerics_1.5.1       
+## [41] dbplyr_2.1.1                fastmap_1.1.0              
+## [43] rlang_0.4.11                rstudioapi_0.13            
+## [45] RSQLite_2.2.7               jquerylib_0.1.4            
+## [47] BiocIO_1.3.0                generics_0.1.0             
+## [49] jsonlite_1.7.2              BiocParallel_1.27.2        
+## [51] RCurl_1.98-1.3              magrittr_2.0.1             
+## [53] GenomeInfoDbData_1.2.6      Matrix_1.3-4               
+## [55] Rcpp_1.0.7                  munsell_0.5.0              
+## [57] S4Vectors_0.31.0            fansi_0.5.0                
+## [59] lifecycle_1.0.0             stringi_1.7.3              
+## [61] yaml_2.2.1                  SummarizedExperiment_1.23.1
+## [63] zlibbioc_1.39.0             BiocFileCache_2.1.1        
+## [65] grid_4.1.0                  blob_1.2.2                 
+## [67] parallel_4.1.0              crayon_1.4.1               
+## [69] lattice_0.20-44             Biostrings_2.61.1          
+## [71] GenomicFeatures_1.45.0      hms_1.1.0                  
+## [73] KEGGREST_1.33.0             knitr_1.33                 
+## [75] pillar_1.6.1                GenomicRanges_1.45.0       
+## [77] rjson_0.2.20                biomaRt_2.49.2             
+## [79] stats4_4.1.0                XML_3.99-0.6               
+## [81] glue_1.4.2                  evaluate_0.14              
+## [83] MultiAssayExperiment_1.19.3 png_0.1-7                  
+## [85] vctrs_0.3.8                 tzdb_0.1.2                 
+## [87] gtable_0.3.0                purrr_0.3.4                
+## [89] tidyr_1.1.3                 assertthat_0.2.1           
+## [91] cachem_1.0.5                xfun_0.24                  
+## [93] restfulr_0.0.13             pheatmap_1.0.12            
+## [95] GenomicAlignments_1.29.0    AnnotationDbi_1.55.1       
+## [97] memoise_2.0.0               IRanges_2.27.0             
+## [99] ellipsis_0.3.2</code></pre>
 <p><em>References:</em></p>
 </div>
 

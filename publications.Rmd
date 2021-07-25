@@ -12,7 +12,7 @@ This is a selection of papers that I have authored or co-authored, as of `r Sys.
 1. [Killian T, Gatto L (2021) "Exploiting the DepMap cancer dependency data using the depmap R package"](https://f1000research.com/articles/10-416/v1)
 <br/>
 <br/>
-2. [Broadfield, et al. (2021) "Non-transformed cells respond to fat by inducing glucose metabolism"]()
+2. [Broadfield, et al. (2021) "Fat Induces Glucose Metabolism in Nontransformed Liver Cells and Promotes Liver Tumorigenesis"](pdfs/Fat induces glucose metabolism.pdf)
 <br/>
 <br/>
 3. [Mylemans B, et al. (2021) "Crystal structures of Scone, pseudosymmetric folding of a symmetric designer protein" ](pdfs/Scone_paper.pdf)

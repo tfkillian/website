@@ -5,7 +5,7 @@ output:
     css: style.css
 ---
 <br/>
-This is selection of my personal and professional projects as of `r Sys.Date()`:
+This is a small selection of my personal and professional projects as of `r Sys.Date()`:
 <br/>
 <br/>
 1. [**10X Seurat Single Cell Visualization Pipeline**](https://github.com/tfkillian/single_cell_GoT)
@@ -17,7 +17,7 @@ package, producing diagnostic visualizations and statistics.
 2. [**depmap**](http://bioconductor.org/packages/release/data/experiment/html/depmap.html)
 <br/>
 The `depmap` Bioconductor package stores data from data from the
-[Depmap project](https://depmap.org/portal/), formating this data
+[Depmap project](https://depmap.org/portal/), formatting this data
 for use of popular R data analysis and visualizing tools such as `dplyr` and
 `ggplot2`. This package utilizes `ExperimentHub`, accessing versions of the
 Depmap data from the Cloud.
@@ -32,7 +32,7 @@ expression analysis. This pipeline utilizes `Conda` to maintain a software
 environment that ensures data reproducibility.
 <br/>
 <br/>
-4. [**Transcripomic DE Result Shiny App **](https://github.com/tfkillian/shiny)
+4. [**Transcriptomic DE Result Shiny Apps**](https://github.com/tfkillian/shiny)
 <br/>
 This interactive web app allows users to explore the results of differential
 expression analysis through dynamic visualizations and customizable html tables.
